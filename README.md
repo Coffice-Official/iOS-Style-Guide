@@ -1,4 +1,12 @@
+# Coffice iOS app Environment History
+
+- app status : iOS16+ / Xcode 15.2 / Tuist 3.42.2 / TCA 1.7.3
+  - v1.4 ~
+
+
+
 # iOS-Style-Guide
+
 This is Coffice iOS App's style guide line. ⚡️
 
 
@@ -60,3 +68,13 @@ Coffice 팀 구성원들이 SwiftUI framework, TCA architecture를 기반의 Cof
     // ...
   }
   ```
+
+
+
+### 문제 해결 경험 공유
+
+- TCA Reducer를 사용하는 SwiftUI View의 preview crash 문제
+
+  - Aautomatically Refresh Canvas 옵션 비활성화 후 해결
+
+  <img width="500" alt="issue solving example" src="https://github.com/applebuddy/SeminarMemo/assets/4410021/77e4aedd-b957-445f-8456-0563bca54fbb">
