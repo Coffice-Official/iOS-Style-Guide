@@ -78,4 +78,5 @@ Coffice 팀 구성원들이 SwiftUI framework, TCA architecture를 기반의 Cof
 
   <img width="500" alt="issue solving example" src="https://github.com/applebuddy/SeminarMemo/assets/4410021/77e4aedd-b957-445f-8456-0563bca54fbb">
 
+- [메모리릭 이슈 간단하게 확인하는 몇가지 방법](https://0urtrees.tistory.com/420)
 - [Xcode 15.2, Package.resolved PinsStorage version 이슈 해결방법](https://0urtrees.tistory.com/419)
