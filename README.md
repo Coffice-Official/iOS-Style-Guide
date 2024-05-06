@@ -71,10 +71,11 @@ Coffice 팀 구성원들이 SwiftUI framework, TCA architecture를 기반의 Cof
 
 
 
-### 문제 해결 경험 공유
+### 프로젝트 이슈 해결방법 공유
 
 - TCA Reducer를 사용하는 SwiftUI View의 preview crash 문제
-
   - Aautomatically Refresh Canvas 옵션 비활성화 후 해결
 
   <img width="500" alt="issue solving example" src="https://github.com/applebuddy/SeminarMemo/assets/4410021/77e4aedd-b957-445f-8456-0563bca54fbb">
+
+- [Xcode 15.2, Package.resolved PinsStorage version 이슈 해결방법](https://0urtrees.tistory.com/419)
