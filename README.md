@@ -58,8 +58,8 @@ Coffice 팀 구성원들이 SwiftUI framework, TCA architecture를 기반의 Cof
   - 작업 성격은 크게 Feat, Fix, Chore를 사용합니다.
     - Feat : 기능 개발
     - Fix : 이슈 수정
-    - Chore : 기타 컨벤션 수정이나
     - Docs : README.md 문서 작업
+    - Chore : 기타 수정 건 (주석, 컨벤션 수정 등)
 
 
 
