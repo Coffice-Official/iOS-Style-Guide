@@ -1,7 +1,9 @@
-# Coffice iOS app Environment History
+# Coffice iOS App Environment History
 
-- app status : iOS16+ / Xcode 15.2 / Tuist 3.42.2 / TCA 1.7.3
-  - v1.4 ~
+## App, library version status
+- v1.4 ~ : iOS 16+ / Xcode 15.2 / Tuist 3.42.2 / TCA 1.7.3
+- v1.9 ~ : Xcode 15.2 ~ 15.3 / TCACoordinators 0.3.0 -> 0.9.0
+
 
 
 
@@ -43,6 +45,21 @@ Coffice 팀 구성원들이 SwiftUI framework, TCA architecture를 기반의 Cof
 - self 키워드는 꼭 넣어야 하는 경우에만 명시합니다.
 
 - guard문 끝의 else는 한번 개행해줍니다.
+
+
+## Github style guide
+
+- 커밋, PR 제목은 아래와 같은 포맷으로 작성합니다.
+  - [{Jira 티켓 번호}, {작업 성격}] {작업 내용 설명}
+```
+// commit, PR title example
+[COFFICE-123, Feat] 커피스 작업 내용
+```
+  - 작업 성격은 크게 Feat, Fix, Chore를 사용합니다.
+    - Feat : 기능 개발
+    - Fix : 이슈 수정
+    - Docs : README.md 문서 작업
+    - Chore : 기타 수정 건 (주석, 컨벤션 수정 등)
 
 
 
