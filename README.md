@@ -3,6 +3,7 @@
 ## App, library version status
 - v1.4 ~ : iOS 16+ / Xcode 15.2 / Tuist 3.42.2 / TCA 1.7.3
 - v1.9 ~ : Xcode 15.2 ~ 15.3 / TCACoordinators 0.3.0 -> 0.9.0
+- v1.11 ~ : Xcode 15.0 ~ 15.3 / FlowStacks 0.4.1 (downgraded to fix TCACoordinators build issue)
 
 
 
