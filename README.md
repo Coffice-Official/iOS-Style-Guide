@@ -71,7 +71,7 @@ Coffice 팀 구성원들이 SwiftUI framework, TCA architecture를 기반의 Cof
 - 단발성으로 처리되는 UI 액션, delegate 이벤트로 사용되는 action들은 .send(.foo), .run { ... } 방식으로 action을 반환할 수 있다. 
 
 - 그 외 기타 shared logic들은 성능상 이점을 위해 State 내의 mutating func으로 처리될 수 있다.
-  - [참고, TCA performance](https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/performance/)
+  - TCA performance [reference](https://pointfreeco.github.io/swift-composable-architecture/main/documentation/composablearchitecture/performance/)
 
   ```swift
   @Reducer
@@ -94,7 +94,8 @@ Coffice 팀 구성원들이 SwiftUI framework, TCA architecture를 기반의 Cof
 - TCA Reducer를 사용하는 SwiftUI View의 preview crash 문제
   - Aautomatically Refresh Canvas 옵션 비활성화 후 해결
 
-  <img width="500" alt="issue solving example" src="https://github.com/applebuddy/SeminarMemo/assets/4410021/77e4aedd-b957-445f-8456-0563bca54fbb">
+  <img width="300" alt="issue solving example" src="https://github.com/applebuddy/SeminarMemo/assets/4410021/77e4aedd-b957-445f-8456-0563bca54fbb">
 
-- [메모리릭 이슈 간단하게 확인하는 몇가지 방법](https://0urtrees.tistory.com/420)
-- [Xcode 15.2, Package.resolved PinsStorage version 이슈 해결방법](https://0urtrees.tistory.com/419)
+- 메모리릭 이슈 간단하게 확인하는 몇가지 방법 [link](https://0urtrees.tistory.com/420)
+- Xcode 15.2, Package.resolved PinsStorage version 이슈 해결방법 [link](https://0urtrees.tistory.com/419)
+- Xcode 16.4, WebKit 관련 컴파일 에러 임시 해결방법 [link](https://0urtrees.tistory.com/443)
